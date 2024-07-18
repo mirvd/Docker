@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app1:
+    build: ./
+    image: 'myapp:2.0'
+    container_name: 'myappcontainer2'
+    ports:
+      - '8080:8080'
+
+
+
